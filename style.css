@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    color: teal;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*********** HEADER ************/
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+/* link styles */
+
+header a {
+    color: gold;
+    text-decoration: none;
+}
+
+
+/*********** LISTS ************/
+
+#todo-lists {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.list {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+
+.list-title {
+    margin-left: 20px;
+}
+
+
+/* link styles */
+
+.list a {
+    color: teal;
+    text-decoration: none;
+}
+
+.button {
+    border: 2px solid teal;
+    color: teal;
+    background-color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid rgb(214, 214, 214);
+}
+
+
+/* margin = space around list elems
+   padding = space inside elems
+*/
